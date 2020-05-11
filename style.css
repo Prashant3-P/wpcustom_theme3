@@ -1,0 +1,811 @@
+/*
+Theme Name: Quilava
+Theme URI: www.Quilava.com
+Author: Prashant
+Description: Quilava Pokemon is a Fire-type Pokémon introduced in Generation II. It evolves from Cyndaquil starting at level 14 and evolves into Typhlosion starting at level 36.
+Version: 1.0
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+.ftco-navbar-light {
+    background: transparent !important;
+    position: relative;
+    z-index: 3;
+    padding: 0;
+}
+
+.ftco-navbar-light .navbar-brand {
+    color: #fcedcd !important;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: "EB Garamond", serif;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #a1d7f1 !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    color: #fcedcd;
+    text-transform: uppercase;
+    font-family: "EB Garamond", serif;
+    position: relative;
+    opacity: 1 !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #a1d7f1 !important;
+}
+
+.ftco-navbar-light.scrolled .nav-link {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+
+
+/* Blog Posts */
+.page-title {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0 100px;
+    position: relative;
+    background-image: url('./images/final.jpg');
+}
+
+.breadcrumb {
+    background-color: transparent !important;
+    justify-content: center;
+}
+
+
+.breadcrumb li, .breadcrumb a {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.breadcrumb a::before {
+    position: absolute;
+    content: '/';
+    right: -17px;
+    top: -1px;
+    height: 12px;
+}
+
+.breadcrumb a {
+    position: relative;
+}
+
+
+/* post styling */
+.bg-gray {
+    background-color: #f5f5f5;
+}
+
+.text-date {
+    color: white !important;
+}
+
+
+.text-date span{
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.fa-user:before {
+    color: #8db89d;
+}
+
+
+.fa-th-list:before {
+    color: #8db89d;
+}
+
+.fa-comment:before {
+    color: #8db89d;
+}
+
+.side-time{
+   background: #a6d7b8;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.list-inline .paragraph a{
+    font-weight: 400;
+    color: #414c5a;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+.list-inline .paragraph a:hover{
+	text-decoration: none !important;
+	color: #7c9f8e !important;
+}
+
+.paragraph {
+    font-weight: 400;
+    color: #666;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.read-buttn .btn {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    padding: 16px 44px;
+    border-radius: 35px;
+    font-weight: 600;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+}
+
+
+.btn-primary {
+    background-color: #a6d7b8 !important;
+    border-color: #a6d7b8 !important;
+}
+
+.btn-primary:focus {
+    box-shadow: none !important;
+}
+
+.btn-primary:hover {
+    background: #8e9fd0 !important;
+}
+
+
+/* Pagination stying*/
+.pagination .page-numbers {
+   background: #a6d7b8;
+   color: #fff;
+   display: block;
+   width: auto;
+   float: left;
+   margin: 4px 4px 4px 0;
+   padding: 15px 18px 14px 18px;
+   text-decoration: none;
+}
+ 
+.pagination .page-numbers:hover {
+   background: #709e9b;
+   color: #fff;
+   text-decoration: none;
+}
+
+.pagination .current{
+   background: #709e9b;
+}
+
+/* Sidebar styling */
+
+.side-tab{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.sidebar-box-shadow {
+    box-shadow: -3px 0px 3px 0px rgb(242, 219, 188);
+}
+
+.sidebr-title{
+    padding: 10px 0 10px 0;
+    border-bottom: 2px solid #555;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-family: 'PT Serif', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: bold;
+    background: #94bbb6;
+}
+
+.calendar_wrap th {
+    padding: 15.5px;
+    background: #96b3d8;
+    border-right: 1px solid white;
+}
+
+
+.widget_calendar td {
+    padding: 10px;
+}
+
+table td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.side-tab ul{
+    padding-left: 16px !important;
+}
+
+.side-tab ul li a{
+	color: black !important;
+}
+
+
+.side-tab ul li{
+    padding: 5px 0px 5px 0px;
+    list-style: none;
+    list-style: outside url(img/li.svg) !important;
+}
+
+.searchform input[type=text]{
+   width: 70% !important;
+}
+
+.searchform input[type=submit]{
+    background: #8e9fd0 !important;
+    border: navajowhite;
+    padding: 4px 19px 4px 19px;
+    color: white;
+}
+
+
+label{
+	display: none !important;
+}
+
+
+.side-tab ul li a:hover {
+    text-decoration: none !important;
+    color: #7c9f8e !important;
+}
+
+
+/* Comments styling */
+.comment-container {
+    margin-top: 30px;
+    background-color: #f9efd3;
+    border: 1px solid #ececec;
+    padding: 35px 30px;
+}
+
+.comment-container span {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.comment-container hr {
+    border: 2px solid #dd7573;
+    width: 65px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.form-submit input[type=submit]{
+	font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    padding: 16px 40px;
+    font-weight: 600;
+    border: 0;
+    position: relative;
+    background: #8e9fd0;
+    z-index: 1;
+    transition: .2s ease;
+    color: #fff;
+}
+
+
+/* footer styling */
+.ftco-footer {
+    padding: 4em 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: #96b3d8;
+}
+
+.ftco-section {
+    position: relative;
+}
+
+
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.ftco-footer .ftco-footer-widget p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+.ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: #e9ceb8;
+    border-radius: 50%;
+    position: relative;
+    color: #fff !important;
+}
+
+
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff !important;
+}
+
+.ftco-animate a:hover{
+	background: #645363;
+}
+
+
+.ftco-footer-widget ul li a:hover{
+    text-decoration: none;
+    color: #ffcd82 !important;
+}
+
+
+.row > .gal_col {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    margin-bottom: 15px;
+    transition: transform .3s;
+}
+
+.row > .gal_col:hover{
+    transform: scale(1.1); 
+}
+
+.block-23 ul{
+  padding: 0 !important;
+  list-style: none;
+}
+
+.block-23 ul li{
+  padding: 9px 0px 0px 0px;
+}
+
+.gal_col .card-img-top {
+    width: 89% !important;
+    height: 68% !important;
+}
+
+
+.ftco-footer-widget ul li{
+	padding-bottom: 1px;
+}
+
+
+.ftco-footer-widget ul li a{
+	color: #000000 !important;
+}
+
+
+.menu-footer-menu-container ul{
+	list-style: none;
+	padding: 0;
+}
+
+
+
+.amazingslider-nav-1{
+   top: 95% !important;
+}
+
+
+/* about me */
+.aboutmeis{
+    padding: 100px 0;
+}
+
+.section-title-border-half {
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.ceo-image {
+    background-image: url(images/about/ceo-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 508px;
+    width: 475px;
+}
+
+
+.section-title-border-half::before {
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #e84444;
+    bottom: -14px;
+    left: 0;
+}
+
+
+.section-title-border-half::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50px;
+    left: 15px;
+    bottom: -10px;
+    background: #e84444;
+}
+
+
+/* contact page */
+.section-title {
+    margin-bottom: 55px;
+}
+
+.section-title h2{
+    font-size: 36px;
+    color: #222;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.round-icon {
+    height: 70px;
+    min-width: 70px;
+    max-width: 70px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    text-align: center;
+    line-height: 70px !important;
+    font-size: 30px;
+    color: #679aca;
+    display: inline-block;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.box-shadow {
+    box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.1);
+}
+
+form h3{
+    font-size: 30px;
+    color: #222;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.form-control {
+    border-radius: 5px;
+    padding: 0 15px 2px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
+.read-cont .btn {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    padding: 16px 44px;
+    border-radius: 35px;
+    font-weight: 600;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+    background: #8e9fd0 !important;
+}
+
+
+.read-cont .btn:hover{
+    background: #6179c0 !important;
+}
+
+
+/* 404 page */
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 920px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.notfound .notfound-404 {
+  position: absolute;
+  height: 100px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Maven Pro', sans-serif;
+  color: #ececec;
+  font-weight: 900;
+  font-size: 276px;
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.notfound h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 46px;
+  color: #000;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.notfound p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.notfound a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #6179c0;
+  display: inline-block;
+  padding: 16px 38px;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 400;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  background-color: #fff;
+  border-color: #189cf0;
+  color: #189cf0;
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 h1 {
+    font-size: 162px;
+  }
+  .notfound h2 {
+    font-size: 26px;
+  }
+}
+
+
+
+/* Posts by Admin */
+.abt-admin{
+   padding: 30px 0;
+}
+
+.abt-admin h2{
+    font-size: 36px;
+    color: #222;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title{
+    margin-bottom: 55px;
+}
+
+.section-title-border {
+    position: relative;
+}
+
+.section-title-border::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 120px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e84444;
+}
+
+
+.section-title-border::after {
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #e84444;
+    box-shadow: 0 0 0 5px #fff;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-body .card-text p{
+    margin-right: .5rem!important;
+    margin-left: .5rem!important;
+}
+
+.card-img-wrapper {
+    position: relative;
+}
+
+.overlay-rounded-top::before {
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover .card-img-wrapper::before {
+    opacity: .4;
+}
+
+.card .card-img-wrapper::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: .2s;
+}
+
+.translateY-25 {
+    transform: translateY(25px);
+}
+
+.card-body .btn-secondary{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    padding: 16px 44px;
+    border-radius: 35px;
+    font-weight: 600;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+    background-color: #303032;
+}
+
+
+.card-body .btn-secondary:hover {
+    background: #7ba1e5eb;
+}
+
+.card-body .btn:focus{
+   box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
